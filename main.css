@@ -13,10 +13,24 @@ header {
 main {
   background: yellowgreen;
   height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main div {
+  margin: auto;
+  height: auto;
+  width: 80%;
 }
 footer {
   background: orange;
   height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer div {
+  margin: auto;
 }
 header div {
   background: rgb(107, 77, 128);
