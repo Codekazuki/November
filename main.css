@@ -37,6 +37,9 @@ footer {
 footer div {
   margin: auto;
 }
+li {
+  list-style: none;
+}
 header div {
   background: rgb(107, 77, 128);
   height: 40%;
