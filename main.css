@@ -9,9 +9,14 @@ header {
   display: flex;
   justify-content: space-around;
   height: 15vh;
+  background-color: red;
 }
+
 main {
-  background: yellowgreen;
+  background-image: url(/asset/maradona.jfif);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -37,5 +42,7 @@ header div {
   height: 40%;
   width: 5rem;
   text-align: center;
+  margin: auto;
   border-radius: 20%;
+  padding-top: 4px;
 }
