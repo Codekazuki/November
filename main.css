@@ -9,7 +9,26 @@ header {
   display: flex;
   justify-content: space-around;
   height: 15vh;
-  background-color: red;
+  background-color: rgba(167, 653, 456, 0.4);
+}
+header div {
+  background: rgb(107, 77, 128);
+  height: 40%;
+  width: 5rem;
+  text-align: center;
+  margin: auto;
+  border-radius: 20%;
+  padding-top: 4px;
+}
+header div:hover {
+  background-color: white;
+}
+
+header img {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin-left: 2rem;
 }
 
 main {
@@ -40,12 +59,11 @@ footer div {
 li {
   list-style: none;
 }
-header div {
-  background: rgb(107, 77, 128);
-  height: 40%;
-  width: 5rem;
-  text-align: center;
-  margin: auto;
-  border-radius: 20%;
-  padding-top: 4px;
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: pink;
+}
+a:hover {
+  color: yellowgreen;
 }
