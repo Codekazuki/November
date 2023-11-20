@@ -11,15 +11,15 @@ header {
   min-height: 15vh;
   background-color: rgba(167, 653, 456, 0.4);
   flex-flow: row wrap;
+  align-content: center;
 }
 header div {
   background: rgb(107, 77, 128);
-  height: 40%;
-  width: 5rem;
+  height: auto;
+  min-width: 10%;
   text-align: center;
   margin: auto;
   border-radius: 20%;
-  padding-top: 4px;
 }
 header div:hover {
   background-color: white;
