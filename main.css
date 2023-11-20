@@ -8,8 +8,9 @@
 header {
   display: flex;
   justify-content: space-around;
-  height: 15vh;
+  min-height: 15vh;
   background-color: rgba(167, 653, 456, 0.4);
+  flex-flow: row wrap;
 }
 header div {
   background: rgb(107, 77, 128);
