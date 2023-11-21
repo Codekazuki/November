@@ -9,13 +9,13 @@ header {
   display: flex;
   justify-content: space-around;
   min-height: 15vh;
-  background-color: rgba(167, 653, 456, 0.4);
+  background-color: rgba(167, 653, 456, 0.3);
   flex-flow: row wrap;
   align-content: center;
 }
 header div {
   background: rgb(107, 77, 128);
-  height: auto;
+  height: 2rem;
   min-width: 10%;
   text-align: center;
   margin: auto;
