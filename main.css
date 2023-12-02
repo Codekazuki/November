@@ -48,11 +48,21 @@ main div {
   width: 80%;
 }
 footer {
-  background: orange;
+  background-image: linear-gradient(
+    to left,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
   height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 footer div {
   margin: auto;
