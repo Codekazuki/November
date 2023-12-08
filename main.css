@@ -42,7 +42,7 @@ body {
 }
 .logo-box:hover {
   animation-name: moveInRight;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 .text-box {
   position: absolute;
@@ -149,6 +149,7 @@ body {
   background-color: brown;
   height: 16rem;
   border-radius: 8px;
+  min-width: 500px;
 }
 @media (max-width: 800px) {
   .cards {
@@ -158,9 +159,39 @@ body {
     gap: 2rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 800px) {
   .cards {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
+  }
+  .text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .heading-primary {
+    color: rgb(222, 66, 66);
+  }
+  .heading-primary-main {
+    text-transform: uppercase;
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+  }
+  .heading-primary-sub {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 14px;
+    text-transform: uppercase;
+    animation: moveInRight;
+    animation-duration: 5s;
+    margin-bottom: 8px;
   }
 }
