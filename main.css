@@ -138,3 +138,13 @@ body {
   color: red;
   max-width: 25%;
 }
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.cards div {
+  background-color: brown;
+  width: 30%;
+  height: 8rem;
+  border-radius: 8px;
+}
