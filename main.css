@@ -141,10 +141,24 @@ body {
 .cards {
   display: flex;
   justify-content: space-around;
+  gap: 2rem;
 }
 .cards div {
   background-color: brown;
-  width: 30%;
-  height: 8rem;
+  height: 16rem;
   border-radius: 8px;
+}
+@media (max-width: 800px) {
+  .cards {
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+}
+@media (max-width: 375px) {
+  .cards {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
