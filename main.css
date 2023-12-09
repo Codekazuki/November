@@ -146,7 +146,14 @@ body {
   flex-grow: 1;
 }
 .cards div {
-  background-color: brown;
+  background-image: linear-gradient(
+      to left,
+      rgba(214, 165, 112, 0.49),
+      rgba(38, 181, 133, 0.349)
+    ),
+    url(./asset/maradona.jfif);
+  background-size: cover;
+  background-position: center;
   height: 16rem;
   border-radius: 8px;
   min-width: 500px;
