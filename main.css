@@ -144,6 +144,8 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
   flex-grow: 1;
+  background-color: #7b797930;
+  height: 100vh;
 }
 .cards div {
   background-image: linear-gradient(
