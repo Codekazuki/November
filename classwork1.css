@@ -27,3 +27,24 @@ a {
   text-decoration: none;
   font-size: 20px;
 }
+.active {
+  border-bottom: 1px solid greenyellow;
+}
+img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.card {
+  width: 49%;
+  display: inline-block;
+  padding: 16px;
+}
+main {
+  padding: 16px;
+}
+.card h2 {
+  font-weight: 300;
+  padding: 8px 0 16px 0;
+}
