@@ -6,3 +6,24 @@
 body {
   font-family: Cormorant, serif;
 }
+header {
+  margin: 32px;
+}
+.name {
+  display: inline-block;
+  padding-right: 4rem;
+  font-weight: 300;
+}
+.nav {
+  display: inline-block;
+}
+.list li {
+  display: inline-block;
+  list-style: none;
+}
+a {
+  margin: 0 8px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
