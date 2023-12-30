@@ -48,3 +48,10 @@ main {
   font-weight: 300;
   padding: 8px 0 16px 0;
 }
+h2 {
+  background-image: url(./asset/cron.jpg);
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  font-size: 2em;
+}
