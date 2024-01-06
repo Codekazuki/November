@@ -9,11 +9,9 @@ h1 {
   height: 500px;
   margin: 40px auto;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
-  flex-wrap: wrap;
-  flex-direction: column;
-
-  align-content: flex-end;
+  align-items: flex-end;
 }
 
 .box {
@@ -34,6 +32,7 @@ h1 {
 }
 .div3 {
   background-color: rgb(149, 255, 0);
+  align-self: flex-start;
 }
 .div4 {
   background-color: rgb(0, 102, 255);
