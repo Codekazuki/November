@@ -6,9 +6,26 @@
 .container {
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 100px minmax(200px, 1fr) 100px;
+  grid-template-areas:
+    "header header"
+    "main aside"
+    "footer aside";
 }
-.container div {
-  height: 4rem;
-  background-color: aquamarine;
+.header {
+  background-color: green;
+  grid-area: header;
+}
+.main {
+  background-color: aqua;
+  grid-area: main;
+}
+.aside {
+  background-color: blueviolet;
+  grid-area: aside;
+}
+.footer {
+  background-color: yellowgreen;
+  grid-area: footer;
 }
