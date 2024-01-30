@@ -6,10 +6,13 @@
 .container {
   display: grid;
   gap: 1rem;
+  max-width: 100vw;
+  height: 100vh;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 100px minmax(200px, 1fr) 100px;
+  grid-template-rows: autofit, repeat(200px, 1fr);
   grid-template-areas:
     "header header"
+    "main try"
     "main aside"
     "footer aside";
 }
@@ -28,4 +31,8 @@
 .footer {
   background-color: yellowgreen;
   grid-area: footer;
+}
+.try {
+  background-color: goldenrod;
+  grid-area: try;
 }
