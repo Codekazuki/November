@@ -21,7 +21,10 @@
   grid-area: header;
 }
 .main {
-  background-color: aqua;
+  background: url(./Ronaldo-2004.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
   grid-area: main;
 }
 .aside {
