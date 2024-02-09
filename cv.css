@@ -43,4 +43,15 @@ button:hover {
   font-size: 3.5rem;
   color: white;
   letter-spacing: 2px;
+  padding: 32px 0;
+}
+.two-columns {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.two-columns p {
+  color: red;
+  width: 50%;
+  text-transform: capitalize;
 }
