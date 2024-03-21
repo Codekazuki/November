@@ -30,6 +30,9 @@
 .aside {
   background-color: blueviolet;
   grid-area: aside;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .footer {
   background-color: yellowgreen;
