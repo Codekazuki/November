@@ -43,5 +43,6 @@
   justify-content: center;
 }
 .try h1 {
+  margin: auto;
   color: red;
 }
