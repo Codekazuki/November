@@ -17,7 +17,7 @@
     "footer aside";
 }
 .header {
-  background-color: green;
+  background-color: lightblue;
   grid-area: header;
 }
 .main {
@@ -38,4 +38,10 @@
 .try {
   background-color: goldenrod;
   grid-area: try;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.try h1 {
+  color: red;
 }
