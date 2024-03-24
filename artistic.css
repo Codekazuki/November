@@ -7,23 +7,34 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr;
+  grid-template-areas:
+    "sidebar main main content1"
+    "sidebar main main content2"
+    "sidebar content3 content3 content3"
+    "footer footer footer footer";
 }
 .sidebar {
   background-color: red;
+  grid-area: sidebar;
 }
 .main {
   background-color: yellow;
+  grid-area: main;
 }
 .content1 {
   background-color: green;
+  grid-area: content1;
 }
 .content2 {
   background-color: purple;
+  grid-area: content2;
 }
 .content3 {
   background-color: indianred;
+  grid-area: content3;
 }
 .footer {
   background-color: brown;
+  grid-area: footer;
 }
