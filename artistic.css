@@ -6,7 +6,7 @@
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 0.5fr 0.5fr 1fr 0.5fr;
   grid-template-areas:
     "sidebar main main content1"
@@ -22,6 +22,12 @@
 .main {
   background-color: yellow;
   grid-area: main;
+}
+.main p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 .content1 {
   background-color: green;
