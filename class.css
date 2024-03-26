@@ -28,6 +28,7 @@ body {
   background-color: green;
   grid-area: menu;
   animation: slide-in-right 6000ms;
+  animation-iteration-count: 3;
 }
 .main {
   background-color: purple;
@@ -65,8 +66,9 @@ body {
 
 @keyframes slide-in-right {
   from {
-    transform: translateX(300%);
+    transform: rotateX(-500deg) translateX(300%);
     background-color: greenyellow;
+    border-radius: 20px;
   }
 
   to {
