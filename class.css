@@ -22,10 +22,12 @@ body {
   background-color: pink;
   grid-area: title;
   border-radius: 15px;
+  animation: slide-in-left 6000ms;
 }
 .menu {
   background-color: green;
   grid-area: menu;
+  animation: slide-in-right 6000ms;
 }
 .main {
   background-color: purple;
@@ -52,7 +54,7 @@ body {
     gap: 1rem;
   }
 }
-@keyframes slide-in {
+@keyframes slide-in-left {
   from {
     transform: translateX(-100%);
   }
@@ -60,6 +62,14 @@ body {
     transform: translateX(0%);
   }
 }
-.title {
-  animation: slide-in 1000ms;
+
+@keyframes slide-in-right {
+  from {
+    transform: translateX(300%);
+    background-color: greenyellow;
+  }
+
+  to {
+    transform: translateX(0%);
+  }
 }
