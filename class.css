@@ -68,7 +68,7 @@ body {
 
 @keyframes slide-in-right {
   from {
-    transform: rotateX(-500deg) translateX(300%);
+    transform: rotateX(-500deg) translateX(200%);
     background-color: greenyellow;
     border-radius: 20px;
   }
