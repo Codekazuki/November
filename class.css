@@ -22,7 +22,8 @@ body {
   background-color: pink;
   grid-area: title;
   border-radius: 15px;
-  animation: slide-in-left 6000ms;
+  animation: slide-in-right 6000ms;
+  animation-iteration-count: 2;
 }
 .menu {
   background-color: green;
@@ -33,6 +34,7 @@ body {
 .main {
   background-color: purple;
   grid-area: main;
+  animation: slide-in-left 6000ms;
 }
 .footer {
   background-color: yellow;
