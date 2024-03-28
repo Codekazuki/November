@@ -34,7 +34,8 @@ body {
 .main {
   background-color: purple;
   grid-area: main;
-  animation: slide-in-left 6000ms;
+  animation: slide-in-up 6000ms;
+  animation-iteration-count: 2;
 }
 .footer {
   background-color: yellow;
@@ -90,9 +91,9 @@ body {
     transform: translateX(0%);
   }
 }
-@keyframes slide-in-down {
+@keyframes slide-in-up {
   from {
-    transform: rotateY(200deg) translateY(-900%);
+    transform: rotateY(100deg) translateY(500%);
     background-color: rgb(29, 156, 97);
     border-radius: 20px;
   }
