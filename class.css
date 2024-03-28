@@ -39,6 +39,7 @@ body {
 .footer {
   background-color: yellow;
   grid-area: footer;
+  animation: slide-in-down 6000ms;
 }
 @media only screen and (max-width: 600px) {
   .menu {
@@ -79,8 +80,8 @@ body {
 }
 @keyframes slide-in-down {
   from {
-    transform: rotateX(-500deg) translateX(200%);
-    background-color: greenyellow;
+    transform: rotateY(-200deg) translateX(200%);
+    background-color: rgb(29, 156, 97);
     border-radius: 20px;
   }
 
