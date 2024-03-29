@@ -24,6 +24,10 @@ body {
   border-radius: 15px;
   animation: slide-in-right 6000ms;
   animation-iteration-count: 2;
+  animation: grow-and-shrink 2000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 .menu {
   background-color: green;
