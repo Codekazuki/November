@@ -26,7 +26,7 @@ body {
   animation-iteration-count: 2;
   animation: grow-and-shrink 2000ms;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 8;
   animation-direction: alternate;
 }
 .menu {
