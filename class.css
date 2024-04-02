@@ -121,6 +121,7 @@ body {
   padding: 0;
   cursor: pointer;
   outline-offset: 4px;
+  margin: 4px 0;
 }
 .front {
   display: block;
@@ -132,6 +133,6 @@ body {
   transform: translateY(-6px);
 }
 
-.pushable:active .front {
-  transform: translateY(-2px);
+.pushable:hover .front {
+  transform: translateY(12px);
 }
