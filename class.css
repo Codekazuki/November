@@ -134,5 +134,5 @@ body {
 }
 
 .pushable:hover .front {
-  transform: translateY(12px);
+  transform: translateX(165px);
 }
