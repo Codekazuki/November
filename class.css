@@ -136,3 +136,6 @@ body {
 .pushable:hover .front {
   transform: translateX(165px);
 }
+header {
+  display: flex;
+}
