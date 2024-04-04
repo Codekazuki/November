@@ -136,6 +136,9 @@ body {
 .pushable:hover .front {
   transform: translateX(165px);
 }
-header {
+.nav {
   display: flex;
+  justify-content: space-evenly;
+  background: grey;
+  position: sticky;
 }
