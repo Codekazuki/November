@@ -144,11 +144,8 @@ body {
   position: fixed;
   width: 100%;
 }
-<!-- HTML !-->
-<button class="button-85" role="button">Button 85</button>
 
-/* CSS */
-.button-85 {
+.sample-button {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -163,7 +160,7 @@ body {
   touch-action: manipulation;
 }
 
-.button-85:before {
+.sample-button:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -203,7 +200,7 @@ body {
   }
 }
 
-.button-85:after {
+.sample-button:after {
   z-index: -1;
   content: "";
   position: absolute;
