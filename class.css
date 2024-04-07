@@ -26,26 +26,26 @@ body {
   animation-iteration-count: 2;
   animation: grow-and-shrink 2000ms;
   animation-timing-function: ease-in-out;
-  animation-iteration-count: 6;
+  animation-iteration-count: 1;
   animation-direction: alternate-reverse;
 }
 .menu {
   background-color: green;
   grid-area: menu;
   animation: slide-in-right 6000ms;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 .main {
   background-color: purple;
   grid-area: main;
   animation: slide-in-up 6000ms;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 .footer {
   background-color: yellow;
   grid-area: footer;
   animation: slide-in-down 6000ms;
-  animation-iteration-count: 2;
+  animation-iteration-count: 1;
 }
 @media only screen and (max-width: 600px) {
   .menu {
