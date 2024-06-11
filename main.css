@@ -295,3 +295,13 @@ a:hover {
   color: rgb(59, 44, 44);
   font-size: x-large;
 }
+.boxes {
+  height: 16rem;
+  background-color: palevioletred;
+}
+.boxes-grid {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
