@@ -297,11 +297,14 @@ a:hover {
 }
 .boxes {
   height: 16rem;
-  background-color: palevioletred;
+  background-color: rgb(170, 82, 111);
 }
 .boxes-grid {
   display: grid;
   gap: 4px;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: autofit, repeat(200px, 1fr);
+  grid-template-rows: autofit, repeat(100px, 1fr);
+}
+.ext {
+  background-color: tan;
 }
