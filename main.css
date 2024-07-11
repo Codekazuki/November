@@ -6,3 +6,28 @@ html {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+.item1 {
+  background-color: blue;
+  color: white;
+}
+.item2 {
+  background-color: rgb(45, 196, 203);
+  color: white;
+}
+.item3 {
+  background-color: rgb(209, 232, 6);
+  color: white;
+}
+.item4 {
+  background-color: rgb(203, 45, 129);
+  color: white;
+}
+.item5 {
+  background-color: rgb(45, 196, 203);
+  color: white;
+}
+
+.container div {
+  font-size: x-large;
+  padding: 16px;
+}
