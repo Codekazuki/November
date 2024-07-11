@@ -1,6 +1,8 @@
 html {
   scroll-behavior: auto;
 }
-div {
-  margin: 4%;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
