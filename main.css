@@ -6,6 +6,8 @@ html {
   justify-content: space-around;
   gap: 4px;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom, rgb(224, 9, 45), green, yellow);
+  height: 100vh;
 }
 .item1 {
   background-color: blue;
