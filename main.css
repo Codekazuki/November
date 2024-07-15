@@ -1,35 +1,4 @@
-html {
-  scroll-behavior: auto;
-}
 * {
   padding: 0;
   margin: 0;
-}
-.container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 4rem;
-  background-color: blueviolet;
-}
-.name {
-  color: greenyellow;
-}
-.ac a {
-  text-decoration: none;
-  color: red;
-  padding: 0 12px;
-}
-.nav-image {
-  padding: 12px;
-  border-radius: 50%;
-}
-.grid-test {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-
-  gap: 32px;
-}
-.grid-test h1 {
-  background-color: #a31919;
 }
