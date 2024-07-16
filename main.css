@@ -5,3 +5,14 @@
 img {
   height: 8rem;
 }
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+}
+img:hover {
+  opacity: 0.3;
+  height: 7rem;
+  border-radius: 8px;
+}
