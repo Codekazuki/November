@@ -21,3 +21,9 @@ img:hover {
 h1 {
   text-align: center;
 }
+.star {
+  padding: 0.5rem 1rem;
+  margin: 3rem 0;
+  border-radius: 4px;
+  background-color: gray;
+}
