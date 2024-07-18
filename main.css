@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.hovimg {
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  height: 50vh;
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+.buttonhov {
+  background-color: blue;
+  color: aliceblue;
+  padding: 4px 8px;
+  border-radius: 5px;
+  outline: none;
+}
+.hovimg:hover {
+  width: 35%;
+  opacity: 0.2;
+}
+.buttonhov:hover {
+  color: blue;
+  background-color: white;
+  padding: 8px 16px;
+}
