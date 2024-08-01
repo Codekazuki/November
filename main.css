@@ -10,3 +10,14 @@
   --grad-color4: #ce4993;
   --grad-color5: #6a0d83;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
