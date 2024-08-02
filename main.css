@@ -21,3 +21,17 @@
   align-items: center;
   height: 100dvh;
 }
+.the-button {
+  color: var(--btn-color);
+  background-color: var(--btn-bg);
+  padding: 24px 48px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+}
+.the-button:hover {
+  color: var(--btn-bg);
+  background-color: var(--btn-color-hover);
+  outline: var(--grad-color1);
+}
