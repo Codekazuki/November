@@ -15,3 +15,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+.centered-item {
+  color: red;
+  height: 25dvh;
+  background-color: #6a0d83;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50dvw;
+  border-radius: 0.5rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  height: 100dvh;
+  align-items: center;
+}
