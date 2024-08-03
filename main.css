@@ -15,25 +15,3 @@
   margin: 0;
   box-sizing: border-box;
 }
-.button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100dvh;
-  background: linear-gradient(115deg, red green);
-  padding: 4px;
-}
-.the-button {
-  color: var(--btn-bg);
-  background-color: var(--btn-color);
-  padding: 24px 48px;
-  border-radius: 10px;
-  outline: none;
-  font-size: 2rem;
-  font-family: "Times New Roman", Times, serif;
-}
-.the-button:hover {
-  color: var(--btn-bg);
-  background-color: var(--btn-color-hover);
-  outline: var(--grad-color1);
-}
