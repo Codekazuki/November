@@ -16,18 +16,33 @@
   box-sizing: border-box;
 }
 .centered-item {
-  color: red;
+  /* color: red;
   height: 25dvh;
   background-color: #6a0d83;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50dvw;
-  border-radius: 0.5rem;
+  border-radius: 0.5rem; */
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
 }
 .flex-container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
   height: 100dvh;
-  align-items: center;
+  align-items: center; */
+
+  /* second way */
+  /* display: grid;
+  place-items: center;
+  height: 100dvh; */
+
+  /* third way */
+  position: relative;
 }
