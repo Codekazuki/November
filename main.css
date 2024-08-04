@@ -24,13 +24,6 @@
   align-items: center;
   width: 50dvw;
   border-radius: 0.5rem; */
-  position: absolute;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 100%;
 }
 .flex-container {
   /* display: flex;
@@ -44,5 +37,4 @@
   height: 100dvh; */
 
   /* third way */
-  position: relative;
 }
