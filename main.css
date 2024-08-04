@@ -24,6 +24,8 @@
   align-items: center;
   width: 50dvw;
   border-radius: 0.5rem; */
+  color: green;
+  margin: auto;
 }
 .flex-container {
   /* display: flex;
@@ -37,4 +39,6 @@
   height: 100dvh; */
 
   /* third way */
+  height: 100dvh;
+  display: flex;
 }
