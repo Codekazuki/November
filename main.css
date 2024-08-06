@@ -96,3 +96,8 @@
   border: 1px solid black;
   background: url("asset/images/people.jpg");
 }
+.container {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
