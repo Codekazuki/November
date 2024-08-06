@@ -90,3 +90,9 @@
   background-color: aqua;
   border-radius: 4px;
 }
+.bg-class {
+  height: 300px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: teal;
+}
