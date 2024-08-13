@@ -104,3 +104,9 @@
   place-items: center;
   height: 100dvh;
 }
+
+.nav {
+  display: flex;
+  background-color: greenyellow;
+  justify-content: space-between;
+}
