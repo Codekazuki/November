@@ -110,3 +110,8 @@
   background-color: greenyellow;
   justify-content: space-between;
 }
+.jt {
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
