@@ -1,3 +1,9 @@
 body {
-  background-color: yellow;
+  background-image: conic-gradient(
+    rgb(211, 166, 115),
+    yellow,
+    rgb(132, 255, 0),
+    green
+  );
+  height: 100dvh;
 }
