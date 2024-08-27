@@ -4,15 +4,18 @@
   box-sizing: border-box;
 }
 .wrapper {
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+  gap: 15px;
 }
 .wrapper * {
-  width: 320px;
-  height: 200px;
+  width: 300px;
 }
-.five {
+.card {
+  border-radius: 10px;
+}
+.five,
+.three {
   background-color: purple;
 }
 .six {
