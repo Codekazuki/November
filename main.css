@@ -5,9 +5,8 @@
 }
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 15px;
-  border: 2px solid red;
   justify-content: center;
 }
 
