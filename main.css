@@ -1,4 +1,4 @@
-* {
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -29,4 +29,18 @@
 }
 .extra {
   background-color: lawngreen;
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+.name {
+  color: rgba(203, 13, 203, 0.187);
+  font-size: 3rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.home {
+  font-style: italic;
+  font-size: 5rem;
+  background-image: linear-gradient(to bottom right, red, green, blue);
 }
