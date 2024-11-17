@@ -17,13 +17,13 @@ body {
 
 /* Individual card */
 .card {
-  background-color: #fff;
+  background-color: #7ef0f4;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 100%;
-  max-width: 300px;
+  max-width: 400px;
   text-align: center;
   transition: transform 0.2s;
 }
@@ -37,6 +37,8 @@ body {
   font-size: 1.5rem;
   color: #333;
   margin-bottom: 10px;
+  color: #fff;
+  font-weight: 900;
 }
 
 /* Card paragraph */
@@ -50,7 +52,7 @@ body {
 .card .btn {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #4d9ff8;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
