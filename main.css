@@ -1,5 +1,69 @@
-* {
-  padding: 0;
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  box-sizing: border-box;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+/* Card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Individual card */
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card heading */
+.card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Card paragraph */
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Card button */
+.card .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.card .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+  .card {
+    width: calc(33.333% - 20px);
+  }
 }
