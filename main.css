@@ -46,6 +46,7 @@ footer a {
 footer ul {
   list-style: none;
 }
+/* hero section  */
 .hero {
   background-color: yellow;
   height: 50dvh;
@@ -56,8 +57,13 @@ footer ul {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-style: italic;
-  font-size: xx-large;
+  font-size: clamp(3rem, 4.5vw, 3.5rem);
+  text-align: center;
 }
 .learn {
   color: purple;
+}
+.header-paragraph {
+  font-style: italic;
+  font-size: xx-large;
 }
