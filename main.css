@@ -30,6 +30,9 @@ nav ul a {
   font-size: 1.5rem;
   font-weight: 900;
 }
+nav ul a:hover {
+  color: blue;
+}
 /* Footer */
 footer {
   background-color: rgba(255, 0, 0, 0.587);
@@ -66,4 +69,26 @@ footer ul {
 .header-paragraph {
   font-style: italic;
   font-size: xx-large;
+}
+.hero-cta {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-cta li {
+  list-style: none;
+  padding-left: 2rem;
+}
+.hero-cta a {
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+}
+.hero-cta a:hover {
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 8px;
 }
