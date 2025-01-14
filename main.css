@@ -27,6 +27,8 @@ nav ul a {
   text-decoration: none;
   color: white;
   padding-left: 3rem;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 /* Footer */
 footer {
@@ -43,4 +45,19 @@ footer a {
 }
 footer ul {
   list-style: none;
+}
+.hero {
+  background-color: yellow;
+  height: 50dvh;
+  display: grid;
+  place-items: center;
+}
+.hero-header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: xx-large;
+}
+.learn {
+  color: purple;
 }
