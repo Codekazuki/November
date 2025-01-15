@@ -80,7 +80,7 @@ footer ul {
 }
 .hero-cta a {
   color: white;
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.7);
   text-decoration: none;
   padding: 12px;
   border-radius: 8px;
