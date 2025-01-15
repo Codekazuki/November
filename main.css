@@ -33,26 +33,11 @@ nav ul a {
 nav ul a:hover {
   color: blue;
 }
-/* Footer */
-footer {
-  background-color: rgba(255, 0, 0, 0.587);
-  margin-top: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem 0;
-}
-footer a {
-  text-decoration: none;
-  color: black;
-}
-footer ul {
-  list-style: none;
-}
+
 /* hero section  */
 .hero {
   background-color: yellow;
-  height: 50dvh;
+  height: 60dvh;
   display: grid;
   place-items: center;
 }
@@ -85,6 +70,7 @@ footer ul {
   text-decoration: none;
   padding: 12px;
   border-radius: 8px;
+  font-size: clamp(0.5rem, 2vw, 2rem);
 }
 .hero-cta a:hover {
   color: blue;
@@ -92,4 +78,48 @@ footer ul {
   text-decoration: none;
   padding: 16px;
   border-radius: 8px;
+}
+.get-started {
+  padding-top: 2rem;
+  text-align: center;
+  background-color: rgba(172, 255, 47, 0.932);
+  height: 60dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: clamp(3rem, 4vw, 4rem);
+}
+.get-started a {
+  font-size: clamp(2.2rem, 3vw, 4.2rem);
+  text-decoration: none;
+  color: black;
+}
+/* Footer */
+footer {
+  background-color: rgba(255, 0, 0, 0.587);
+  margin-top: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  font-size: clamp(0.5rem, 2vw, 4rem);
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer ul {
+  list-style: none;
+}
+.footer-nav li {
+  padding: 0.5rem 0;
+}
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socials li {
+  padding-right: 2rem;
 }
