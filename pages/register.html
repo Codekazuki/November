@@ -14,7 +14,49 @@
         <li><a href="/pages/register.html">Register</a></li>
       </ul>
     </nav>
-    <section>register</section>
+    <div class="reg">
+      <div class="container">
+        <h2>Register</h2>
+        <form action="submit_register_form.php" method="POST">
+          <div class="form-group">
+            <label for="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Enter Username"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter Password"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <input type="submit" value="Register" />
+          </div>
+        </form>
+        <div class="toggle-links">
+          <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+      </div>
+    </div>
     <footer>
       <ul class="socials">
         <li>
